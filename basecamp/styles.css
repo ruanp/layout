@@ -6,15 +6,35 @@
 }
 
 h1 {
+  font-size: 46px;
+  letter-spacing: -1px;
+  text-align: center;
+  margin: 0;
   font-family: "ProximaNova", "Helvetica Neue", helvetica, arial, sans-serif;
   display: block;
-  font-size: 2em;
   -webkit-margin-before: 0.67em;
   -webkit-margin-after: 0.67em;
   -webkit-margin-start: 0px;
   -webkit-margin-end: 0px;
   font-weight: bold;
   text-align: center;
+  line-height: 1.1em;
+}
+
+h2 {
+  font-size: 28px;
+  color: #c00;
+  margin: 0 0 20px 0;
+  padding: 0;
+  margin: 0 0 10px;
+}
+
+h3 {
+  margin: 0 0 10px;
+  font-weight: bold;
+  color: black;
+  font-size: 16px;
+  line-height: 1.3em;
 }
 
 nav {
@@ -74,7 +94,7 @@ aside {
 .signup {
   float: left;
   border: 1px solid;
-  padding: 20px 9px 0;
+  padding: 65px 9px 0;
   margin-left: 10px;
   background: transparent;
   margin: 0 auto;
@@ -82,10 +102,20 @@ aside {
   text-align: center;
 }
 
+.signup p {
+  margin: 0 30px;
+  font-weight: normal;
+  font-size: small;
+}
+
 .input {
   display: block;
   position: relative;
   text-align: left;
+}
+
+form {
+  margin-top: 15px;
 }
 
 input {
@@ -105,6 +135,25 @@ input {
   width: 300px;
 }
 
+input[type="submit"] {
+  color: white;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  font-size: 13px;
+  font-weight: bold;
+  height: 42px;
+  padding: 0 10px;
+  cursor: pointer;
+  background-color: #393;
+  display: inline;
+  width: 150px;
+  -webkit-appearance: none;
+}
+
 body{
-  /* rules go here */
+  font-size: 14px;
+  line-height: 1.2em;
+  color: #000;
+  font-family: "ProximaNova", "Helvetica Neue", helvetica, arial, sans-serif;
 }
